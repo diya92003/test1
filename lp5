@@ -1,0 +1,27 @@
+•	Create a new git repository in your account.
+•	Copy the repository url.
+•	Open VS code and clone a folder to git repository using the command 
+   “git clone <repository_url>”
+•	Change the directly using the command 
+   “cd <repository_name>”
+•	Create a text file called abc.txt.
+•	Add the text file using the command 
+   “git add abc.txt”
+•	Commit the text file using a commit message using the command 
+   git commit -m “first commit”
+•	Push the text file into your git repository using the command 
+   “git push origin main”
+•	To create and switch to new branch use command 
+   “git checkout -b source-branch”
+•	Check the branch using the command 
+   “git branch”
+•	Create two new files say b.txt and c.txt and push them to the feature branch.
+•	Now switch to main branch using the command 
+   “git checkout main”
+•	To cherrypick the commits from source-branch to main branch use the command 
+   “git cherry-pick second branch~2..source-branch”
+•	  “git add ”
+•	Push the changes in the source branch using the command 
+   “git push origin source-branch”
+•	Push the changes in the main using the command 
+   “git push origin main”
