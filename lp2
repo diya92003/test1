@@ -1,0 +1,19 @@
+•	Create a new git repository in your account.
+•	Copy the repository url.
+•	Open VS code and clone a folder to git repository using the command 
+   “ git clone <repository_url>”
+•	Change the directly using the command 
+   “cd <repository_name>”
+•	Use the command “git branch” to check the current branch.
+•	Create a new branch using command
+   “git branch -c feature-branch”
+•	To switch from main branch to feature-branch use command 
+   “git checkout feature-branch”
+•	To push the feature branch to repository use the command 
+   “git push origin feature-branch”
+•	Create another branch in github called second-branch.
+•	To switch from current branch to second-branch use 
+  “git fetch origin” 
+then use 
+  “git checkout second-branch”.
+•	Use “git stash” to stash all the changes
