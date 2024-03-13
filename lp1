@@ -1,0 +1,17 @@
+•	Create a new git repository in your account.
+•	Copy the repository url.
+•	Open VS code and clone a folder to git repository using the command 
+   “git clone <repository_url>”
+•	Change the directly using the command 
+   “cd <repository_name>”
+•	Create a text file called abc.txt.
+•	Add the text file using the command 
+   “git add abc.txt”
+•	Commit the text file using a commit message using the command
+   git commit -m “first commit”
+•	Push the text file into your git repository using the command 
+   “git push origin main”
+•	To create a pull request first create a file in github called pqr.txt
+•	Now execute pull request in VS code terminal using the command 
+   “git pull origin”
+•	pqr.txt file will appear in VS code.
