@@ -1,0 +1,35 @@
+•	Create a new git repository in your account.
+•	Copy the repository url.
+•	Open VS code and clone a folder to git repository using the command 
+   “ git clone <repository_url>”
+•	Change the directly using the command 
+   “cd <repository_name>”
+•	Create a file called a.txt and add the file with 
+   “git add a.txt”
+•	Commit the text file using a commit message using the command 
+   git commit -m “first commit”
+•	Push the text file into your git repository using the command 
+   “git push origin main”
+•	Create another file b.txt
+•	Add the text file using the command 
+   “git add b.txt”
+•	Commit the text file using a commit message using the command 
+   git commit -m “Second commit”
+•	Push the text file into your git repository using the command 
+   “git push origin main”
+•	Now create tag using command
+   “git tag v1.0”
+•	To display the tag use command 
+   “git tag”
+•	Push the tag using command
+   “git push origin v1.0”
+•	Create a file called lmn.txt and add the file with 
+   “git add a.txt”
+•	Commit the text file using a commit message using the command 
+   git commit -m “third commit”
+•	Push the text file into your git repository using the command 
+   “git push origin main”
+•	To creates a branch Version1 with v1.0 tag use command 
+   “git checkout -b Version1 v1.0”
+•	Push the changes using the command
+   “git push origin Version1”
