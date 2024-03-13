@@ -1,0 +1,23 @@
+•	Create a new git repository in your account.
+•	Copy the repository url.
+•	Open VS code and clone a folder to git repository using the command 
+   “git clone <repository_url>”
+•	Change the directly using the command 
+   “cd <repository_name>”
+•	Create a text file called f1.txt.
+•	Add the text file using the command 
+   “git add f2.txt”
+•	Commit the text file using a commit message using the command 
+   git commit -m “first commit”
+•	Push the text file into your git repository using the command 
+   “git push ”
+•	Create 4 more files f2.txt ,f3.txt ,f4.txt ,f5.txt and repeat the same steps.
+•	Use command “git log” to find your commit id.
+•	To view the details of that specific commit,including the author, date, and commit message use the command 
+   “git show <commit_id>”
+•	To list all commits made between "2024- 01-01" & "2024-12-31 use the command 
+   “git log --author="ayman-anwar" --since="2024-02-26" --until="2024-12-31" ”
+•	To display the last five commits in the repository's history use command 
+   “git log -n 5”
+•	To undo the changes use the command 
+   “git revert <commit_id> -n
