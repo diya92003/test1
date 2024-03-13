@@ -1,0 +1,19 @@
+•	Create a new git repository in your account.
+•	Copy the repository url.
+•	Open VS code and clone a folder to git repository using the command 
+   “ git clone <repository_url>”
+•	Change the directly using the command 
+   “cd <repository_name>”
+•	Create a new branch using command
+   “ git branch -c feature-branch”
+•	To push the feature branch to repository use the command 
+   “git push origin feature-branch”
+•	Create one text files in each of the branches.
+•	To fetch the latest changes use command 
+   “git fetch”
+•	To rebase your local branch onto the updated remote branch use command 
+   “git rebase origin/feature-branch”
+•	“git pull origin main”
+•	“git push origin main”
+•	To merge "feature-branch" into "master" use command 
+  “git merge feature-branch -m “merge” 
